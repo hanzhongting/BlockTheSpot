@@ -1,7 +1,7 @@
 @echo off
-echo *****************
-echo Author: @rednek46
-echo *****************
+echo *****************************
+echo Powered by Homework Hub | J.D
+echo *****************************
 echo Removing Patch
 if exist "%APPDATA%\Spotify\chrome_elf_bak.dll" (
     del /s /q "%APPDATA%\Spotify\chrome_elf.dll" > NUL 2>&1
