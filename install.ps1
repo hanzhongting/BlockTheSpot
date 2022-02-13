@@ -111,17 +111,10 @@ function Test-SpotifyVersion
 }
 
 Write-Host @'
-*****************
-@mrpond message:
-#Thailand #ThaiProtest #ThailandProtest #freeYOUTH
-Please retweet these hashtag, help me stop dictator government!
-*****************
-'@
 
-Write-Host @'
-*****************
-Authors: @Nuzair46, @KUTlime
-*****************
+*****************************
+Powered by Homework Hub | J.D
+*****************************
 '@
 
 $spotifyDirectory = Join-Path -Path $env:APPDATA -ChildPath 'Spotify'
@@ -360,6 +353,7 @@ Start-Process -WorkingDirectory $spotifyDirectory -FilePath $spotifyExecutable
 Write-Host 'Done.'
 
 Write-Host @'
+
 *****************************
 Powered by Homework Hub | J.D
 *****************************
